@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -x
+set -o
+
+git lfs install
+git push
