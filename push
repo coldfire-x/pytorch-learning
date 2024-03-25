@@ -4,4 +4,5 @@ set -x
 set -o
 
 git lfs install
+git lfs migrate import --include="*.gz"
 git push
